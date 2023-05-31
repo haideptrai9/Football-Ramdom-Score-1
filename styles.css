@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.match {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.team {
+  font-weight: bold;
+}
+
+.score {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.details {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.details div {
+  margin-bottom: 5px;
+}
+
+.upload-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.upload-logo input[type="file"] {
+  display: none;
+}
+
+.upload-logo label {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
