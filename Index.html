@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Football Match Details</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="match">
+      <div>
+         <img class="logo team-logo" id="team1Logo" src="" alt="Team 1 Logo">
+        <span class="team" id="team1Name">Team 1</span>
+      </div>
+      <div>
+        <span class="score" id="score">0 - 0</span>
+      </div>
+      <div>
+       <img class="logo team-logo" id="team2Logo" src="" alt="Team 2 Logo">
+        <span class="team" id="team2Name">Team 2</span>
+      </div>
+    </div>
+    <div class="details">
+    </div>
+    <div>
+      <h3>Enter Team 1 Name:</h3>
+      <input type="text" id="team1NameInput" placeholder="Team 1">
+    </div>
+    <div>
+      <h3>Enter Team 2 Name:</h3>
+      <input type="text" id="team2NameInput" placeholder="Team 2">
+    </div>
+    <div>
+      <h3>Enter Team 1 Players:</h3>
+      <input type="text" id="player1" placeholder="Player 1">
+      <input type="text" id="player2" placeholder="Player 2">
+      <input type="text" id="player3" placeholder="Player 3">
+      <input type="text" id="player4" placeholder="Player 4">
+      <input type="text" id="player5" placeholder="Player 5">
+      <input type="text" id="player6" placeholder="Player 6">
+      <input type="text" id="player7" placeholder="Player 7">
+      <input type="text" id="player8" placeholder="Player 8">
+      <input type="text" id="player9" placeholder="Player 9">
+      <input type="text" id="player10" placeholder="Player 10">
+      <input type="text" id="player11" placeholder="Player 11">
+    </div>
+    <div>
+      <h3>Enter Team 2 Players:</h3>
+      <input type="text" id="player12" placeholder="Player 1">
+      <input type="text" id="player13" placeholder="Player 2">
+      <input type="text" id="player14" placeholder="Player 3">
+      <input type="text" id="player15" placeholder="Player 4">
+      <input type="text" id="player16" placeholder="Player 5">
+      <input type="text" id="player17" placeholder="Player 6">
+      <input type="text" id="player18" placeholder="Player 7">
+      <input type="text" id="player19" placeholder="Player 8">
+      <input type="text" id="player20" placeholder="Player 9">
+      <input type="text" id="player21" placeholder="Player 10">
+      <input type="text" id="player22" placeholder="Player 11">
+    </div>
+    <button onclick="randomizeScore()">Randomize Score</button>
+    <div class="upload-logo">
+      <div>
+        <label for="team1LogoUpload">Upload Team 1 Logo:</label>
+        <input type="file" id="team1LogoUpload" accept="image/*" onchange="handleTeam1LogoUpload(event)">
+      </div>
+      <div>
+        <label for="team2LogoUpload">Upload Team 2 Logo:</label>
+        <input type="file" id="team2LogoUpload" accept="image/*" onchange="handleTeam2LogoUpload(event)">
+		
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
